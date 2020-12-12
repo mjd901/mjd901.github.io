@@ -11,7 +11,7 @@
   z-index: 999;
 }
 .article-entry{
-  background-color: #ccc;
+  background-color: rgba(204, 203, 203,0.7);
   
 }
 .article{margin:30px;border:1px solid #ddd;border-top:1px solid #fff;
