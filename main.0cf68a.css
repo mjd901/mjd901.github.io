@@ -1,7 +1,7 @@
 .left-col {
   /* background:#fff; */
-  background: linear-gradient(rgba(55, 25, 135, 0.5), rgba(155, 25, 255, 0.5));
-  url('http://bucket836.oss-cn-shenzhen.aliyuncs.com/wallpaper/381535373.jpeg') no-repeat 0% 20%/ cover;
+
+ background:  url('http://bucket836.oss-cn-shenzhen.aliyuncs.com/wallpaper/381535373.jpeg') no-repeat 0% 20%/ cover;
   width:300px;
   position:fixed;
   opacity:0.5;
