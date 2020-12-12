@@ -12,6 +12,7 @@
 }
 .article-entry{
   background-color: rgb(212, 212, 245);
+  opacity: 0.8;
 }
 .article{margin:30px;border:1px solid #ddd;border-top:1px solid #fff;
   border-bottom:1px solid #fff;
