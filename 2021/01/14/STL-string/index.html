@@ -9,17 +9,17 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>C++ | Hexo</title>
+  <title>STL-string | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="C++ STL之算法头文件12345#include&lt;algorithm&gt;#include&lt;functional&gt;#include&lt;numeric&gt;#include&lt;iostream&gt;#include&lt;vector&gt;  adjacent_find123456789adjacent_find(beg,end);查找两个相邻且相等的两个地带器">
+  <meta name="description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970#include&lt;set&gt;#include&lt;map&gt;#include&lt;algorithm&gt;#inclu">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C++">
-<meta property="og:url" content="http://example.com/2021/01/14/C++%20STL-Algrothm/index.html">
+<meta property="og:title" content="STL-string">
+<meta property="og:url" content="http://example.com/2021/01/14/STL-string/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="C++ STL之算法头文件12345#include&lt;algorithm&gt;#include&lt;functional&gt;#include&lt;numeric&gt;#include&lt;iostream&gt;#include&lt;vector&gt;  adjacent_find123456789adjacent_find(beg,end);查找两个相邻且相等的两个地带器">
+<meta property="og:description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970#include&lt;set&gt;#include&lt;map&gt;#include&lt;algorithm&gt;#inclu">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-01-14T13:40:05.000Z">
-<meta property="article:modified_time" content="2021-01-14T13:54:31.043Z">
+<meta property="article:published_time" content="2021-01-14T14:31:11.000Z">
+<meta property="article:modified_time" content="2021-01-14T14:31:52.119Z">
 <meta property="article:author" content="a apple">
 <meta name="twitter:card" content="summary">
   
@@ -163,46 +163,27 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-C++ STL-Algrothm" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-STL-string" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      C++
+      STL-string
     </h1>
   
 
         
-        <a href="/2021/01/14/C++%20STL-Algrothm/" class="archive-article-date">
-  	<time datetime="2021-01-14T13:40:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-14</time>
+        <a href="/2021/01/14/STL-string/" class="archive-article-date">
+  	<time datetime="2021-01-14T14:31:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-14</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="C-STL之算法"><a href="#C-STL之算法" class="headerlink" title="C++ STL之算法"></a>C++ STL之算法</h1><h2 id="头文件"><a href="#头文件" class="headerlink" title="头文件"></a>头文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;functional&gt;</span><br><span class="line">#include&lt;numeric&gt;</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">#include&lt;vector&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="adjacent-find"><a href="#adjacent-find" class="headerlink" title="adjacent_find"></a>adjacent_find</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">adjacent_find(beg,end);查找两个相邻且相等的两个地带器</span><br><span class="line">vector&lt;int&gt; vecint;</span><br><span class="line">vecint.push_back(1);</span><br><span class="line">vecint.push_back(2);</span><br><span class="line">vecint.push_back(2);</span><br><span class="line">vecint.push_back(4);</span><br><span class="line">vecint.push_back(7);</span><br><span class="line">vector&lt;int&gt;::iterator it&#x3D;adjacent_find(vecint.begin(),vecint.end());</span><br><span class="line">cout&lt;&lt;*it&lt;&lt;endl;</span><br></pre></td></tr></table></figure>
-
-<h2 id="binary-search"><a href="#binary-search" class="headerlink" title="binary_search"></a>binary_search</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">binary_search(beg,end,n)查找n</span><br><span class="line">vector&lt;int&gt; vecint;</span><br><span class="line">vecint.push_back(1);</span><br><span class="line">vecint.push_back(2);</span><br><span class="line">vecint.push_back(3);</span><br><span class="line">vecint.push_back(4);</span><br><span class="line">vecint.push_back(7);</span><br><span class="line">bool bfend&#x3D;binary_search(vecint.begin(),vecint.end(),4);</span><br><span class="line">cout&lt;&lt;bfend;</span><br></pre></td></tr></table></figure>
-
-<h2 id="count-和count-if"><a href="#count-和count-if" class="headerlink" title="count()和count_if()"></a>count()和count_if()</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">count(begin,end,elem)用于查找某个相等元素的个数</span><br><span class="line">count_if(begin,end,bool())用于查找某个相等元素的个数</span><br><span class="line"></span><br><span class="line">vector&lt;int&gt; vecint;</span><br><span class="line">vecint.push_back(1);</span><br><span class="line">vecint.push_back(2);</span><br><span class="line">vecint.push_back(3);</span><br><span class="line">vecint.push_back(4);</span><br><span class="line">vecint.push_back(7);</span><br><span class="line">vecint.push_back(7);</span><br><span class="line">int cou&#x3D;count(vecint.begin(),vecint.end(),4);</span><br><span class="line">cout&lt;&lt;cou;</span><br><span class="line">cou&#x3D;count_if(vecint.begin(),vecint.end(),dyu);</span><br><span class="line">cout&lt;&lt;cou;</span><br></pre></td></tr></table></figure>
-
-<h2 id="find-和find-if"><a href="#find-和find-if" class="headerlink" title="find()和find_if()"></a>find()和find_if()</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">find(begin,end,elem)用于查找某个元素的迭代器</span><br><span class="line">vector&lt;int&gt;::iterator it&#x3D;find(vecint.begin(),vecint.end(),4)</span><br><span class="line">find_if()同count_if()</span><br></pre></td></tr></table></figure>
-
-<h2 id="merge"><a href="#merge" class="headerlink" title="merge()"></a>merge()</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">merge将两个容器合并并且排序</span><br><span class="line">首先存在两个容器，里面都存在值如有5个</span><br><span class="line">开启第三个容器 vector&lt;int&gt; vecintc;</span><br><span class="line">vecintc.resize(10);</span><br><span class="line">merge(vecinta.begin(),vecinta.end(),vecintb.begin(),vecintb.end(),vecintc.begin());</span><br></pre></td></tr></table></figure>
-
-<h2 id="sort"><a href="#sort" class="headerlink" title="sort()"></a>sort()</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sort(vecinta.begin(),vecinta.end());</span><br><span class="line">可以和类排序   </span><br><span class="line">vecint.push_back(stu(2,&quot;礼拜&quot;));</span><br><span class="line">vecint.push_back(stu(0,&quot;礼拜&quot;));</span><br><span class="line">vecint.push_back(stu(2,&quot;礼拜&quot;));</span><br><span class="line">vecint.push_back(stu(4,&quot;礼拜&quot;));</span><br><span class="line">vecint.push_back(stu(9,&quot;礼拜&quot;));</span><br><span class="line">vecint.push_back(stu(1,&quot;礼拜&quot;));</span><br><span class="line">compare为函数对象</span><br><span class="line">sort（vecinta.begin(),vecinta.end()，compare）;</span><br></pre></td></tr></table></figure>
-
-<h2 id="random-shuffle-beg-end-随机打乱"><a href="#random-shuffle-beg-end-随机打乱" class="headerlink" title="random_shuffle(beg,end)随机打乱"></a>random_shuffle(beg,end)随机打乱</h2><h2 id="reverse（beg-end）反序排列"><a href="#reverse（beg-end）反序排列" class="headerlink" title="reverse（beg,end）反序排列"></a>reverse（beg,end）反序排列</h2><h2 id="copy-beg-end-2beg-复制"><a href="#copy-beg-end-2beg-复制" class="headerlink" title="copy(beg,end,2beg)复制"></a>copy(beg,end,2beg)复制</h2><h2 id="replace-beg-end-elemf-elema-elemf为替换之前的元素"><a href="#replace-beg-end-elemf-elema-elemf为替换之前的元素" class="headerlink" title="replace(beg,end,elemf,elema)elemf为替换之前的元素"></a>replace(beg,end,elemf,elema)elemf为替换之前的元素</h2><h2 id="replace-if-beg-end-compare-elema"><a href="#replace-if-beg-end-compare-elema" class="headerlink" title="replace_if(beg,end,compare,elema)"></a>replace_if(beg,end,compare,elema)</h2><h2 id="accumulate（beg，end-elem）求和"><a href="#accumulate（beg，end-elem）求和" class="headerlink" title="accumulate（beg，end,elem）求和"></a>accumulate（beg，end,elem）求和</h2><h2 id="fill-beg-end-elem-全部替换出相同的elem"><a href="#fill-beg-end-elem-全部替换出相同的elem" class="headerlink" title="fill(beg,end,elem)全部替换出相同的elem"></a>fill(beg,end,elem)全部替换出相同的elem</h2><h2 id="set-union-beg-end-1beg-1end-2beg）求并集"><a href="#set-union-beg-end-1beg-1end-2beg）求并集" class="headerlink" title="set_union(beg,end,1beg,1end,2beg）求并集"></a>set_union(beg,end,1beg,1end,2beg）求并集</h2><h2 id="set-intersection-beg-end-1beg-1end-2beg-求交集"><a href="#set-intersection-beg-end-1beg-1end-2beg-求交集" class="headerlink" title="set_intersection(beg,end,1beg,1end,2beg)求交集"></a>set_intersection(beg,end,1beg,1end,2beg)求交集</h2><h2 id="遍历"><a href="#遍历" class="headerlink" title="遍历"></a>遍历</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">void show(const int &amp;item)</span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;item;</span><br><span class="line">&#125;</span><br><span class="line">for_each(beg,end,show);</span><br></pre></td></tr></table></figure>
-
-<h2 id="transform"><a href="#transform" class="headerlink" title="transform()"></a>transform()</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">void inserase(int i)</span><br><span class="line">&#123;</span><br><span class="line">    return i+1;</span><br><span class="line">&#125;</span><br><span class="line">transform(beg,end,beg,inserase);</span><br></pre></td></tr></table></figure>
-
-
-
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;set&gt;</span><br><span class="line">#include&lt;map&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;numeric&gt;</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">  int main()</span><br><span class="line">  &#123;</span><br><span class="line">      string s1&#x3D;&quot;abhghiuwqtggdnksisbcs&quot;;</span><br><span class="line">      string s2&#x3D;&quot;huytfgstrt&quot;;</span><br><span class="line">      &#x2F;&#x2F;取值</span><br><span class="line">      char cha&#x3D;s1[2];</span><br><span class="line">      char chb&#x3D;s1.at(5);</span><br><span class="line">      cout&lt;&lt;cha&lt;&lt;chb&lt;&lt;endl;</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;赋值</span><br><span class="line">      char e[8]&#x3D;&#123;0&#125;;</span><br><span class="line">      int strc&#x3D;s1.copy(e,3,2);</span><br><span class="line">      cout&lt;&lt;e&lt;&lt;endl;</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;拼接</span><br><span class="line">      s2+&#x3D;s1;</span><br><span class="line">      cout&lt;&lt;s2;</span><br><span class="line">      s2.append(&quot;1234&quot;);</span><br><span class="line">      s2.append(&quot;wewer&quot;,2);&#x2F;&#x2F;前2个字符连起来</span><br><span class="line">      string strd(&quot;stltest&quot;);</span><br><span class="line">      strd.append(s1,3,2);&#x2F;&#x2F;把字符串从第3个开始的2字符连接到当前的字符串结尾(pos从1开始)</span><br><span class="line">      strd.append(5,&#39;d&#39;);&#x2F;&#x2F;在当前字符串结尾添加n个字符c</span><br><span class="line">      &#x2F;&#x2F;cout&lt;&lt;&quot;strd:&quot;&lt;&lt;strd&lt;&lt;endl;</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;比较</span><br><span class="line">      int s12&#x3D;s1.compare(s2);&#x2F;&#x2F;s1&lt;s2;s12&#x3D;a-h&#x3D;-7;返回-1；&#x2F;&#x2F;参照ASCII顺序比较；</span><br><span class="line">      cout&lt;&lt;&quot;s12:&quot;&lt;&lt;s12;</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;截断</span><br><span class="line">      string s3;</span><br><span class="line">      s3&#x3D;s1.substr(2,3);&#x2F;&#x2F;第2个开始的三个</span><br><span class="line">      cout&lt;&lt;s3;</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;查找</span><br><span class="line">      &#x2F;*从前查找</span><br><span class="line">      int find（char c,int pos&#x3D;0）const;从pos开始查找字符c在当前字符串的位置</span><br><span class="line">      int find（const char*s,int pos&#x3D;0）const;从pos开始查找字符串s在当前字符串中的位置</span><br><span class="line">      int find(const string &amp;s,int pos&#x3D;0)const;从pos开始查找字符串s在当前字符串中的位置</span><br><span class="line">      find函数如果查找不到，就返回1</span><br><span class="line">      从后查找</span><br><span class="line">      把find改为rfind</span><br><span class="line">      *&#x2F;</span><br><span class="line">      int f1&#x3D;s1.find(&quot;g&quot;,0);</span><br><span class="line">      cout&lt;&lt;&quot;f1&#x3D;&quot;&lt;&lt;f1;</span><br><span class="line">      int f2&#x3D;s1.find(&quot;ghi&quot;,0);</span><br><span class="line">      cout&lt;&lt;&quot;f2&#x3D;&quot;&lt;&lt;f2&lt;&lt;endl;</span><br><span class="line">      </span><br><span class="line">      &#x2F;&#x2F;插入</span><br><span class="line">      s1.insert(2,&quot;mystl&quot;);</span><br><span class="line">      s1.insert(2,3,&#39;e&#39;);&#x2F;&#x2F;从第2个开始插入3个相同的字符</span><br><span class="line">      cout&lt;&lt;s1;</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;删除</span><br><span class="line">      s1.erase(2,7);</span><br><span class="line">      cout&lt;&lt;&quot;s1&#x3D;&quot;&lt;&lt;s1;</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;替换</span><br><span class="line">      s1.replace(2,2,&quot;---------&quot;);</span><br><span class="line">      cout&lt;&lt;&quot;s1:&quot;&lt;&lt;s1&lt;&lt;endl;</span><br><span class="line">      s1.swap(s2);&#x2F;&#x2F;和s2交换</span><br><span class="line">      cout&lt;&lt;&quot;s1:&quot;&lt;&lt;s1&lt;&lt;endl;</span><br><span class="line">      return 0；</span><br><span class="line">  &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
       
 
@@ -290,7 +271,7 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/01/14/C++%20STL-Algrothm/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/01/14/STL-string/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -304,15 +285,11 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
   
 <nav id="article-nav">
   
-    <a href="/2021/01/14/STL-vector/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          STL-vector
-        
-      </div>
-    </a>
   
+    <a href="/2021/01/14/STL-set/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">STL-set</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
